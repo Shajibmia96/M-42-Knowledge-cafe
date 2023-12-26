@@ -7,24 +7,35 @@ import { useState } from 'react'
 
 function App() {
   
-    // use state use
+    // use state use for bookmarks
 
     const [bookMarks , setBookMarks] = useState([])
+//  use state use for reading time
 
+    const [readTime, setReadTime] = useState(0)
+    // console.log(readTime)
+  // console.log("bookMarks adding soon" , blog)
     const handleBookMarks =(blog) =>{
-        // console.log("bookMarks adding soon" , blog)
         const newBookMarks = [...bookMarks , blog]
         setBookMarks(newBookMarks)
     }
 
+     const handleReadAsMark =time =>{
+          console.log("click read mark", time)
+          const newReadingTime = (readTime + time)
+          setReadTime(newReadingTime)
+     }
+               console.log(readTime)
   return (
     <>
          <div className="container max-w-7xl mx-auto">
          <Header></Header>
          <div className="md:flex ">
-         <Blogs handleBookMarks ={handleBookMarks}></Blogs>
+         <Blogs handleBookMarks ={handleBookMarks}
+                 handleReadAsMark ={handleReadAsMark}
+         ></Blogs>
 
-         <BookMarks bookMarks={bookMarks}></BookMarks>
+         <BookMarks bookMarks={bookMarks} readTime={readTime}></BookMarks>
          </div>
          </div>
     </>
