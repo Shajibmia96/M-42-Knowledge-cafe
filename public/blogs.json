@@ -1,0 +1,53 @@
+[
+    {
+      "id": "123456",
+      "cover_img": "https://i.ibb.co/wztvmyx/programming-background-with-person-working-with-codes-computer.jpg",
+      "title": "Mysteries of the Quantum Realm",
+      "author_name": "Astrid Explorer",
+      "author_img": "https://i.ibb.co/dBzXj5d/medium-shot-woman-writing-resignation.jpg",
+      "hash_tag": ["science", "mystery", "quantum"],
+      "reading_time": 19,
+      "post_date": "2023-01-10"
+    },
+    {
+      "id": "789012",
+      "cover_img": "https://i.ibb.co/72hLjZF/programming-background-with-person-working-with-codes-computer-1.jpg",
+      "title": "Epic Adventures in Cyberspace",
+      "author_name": "Max Byte",
+      "author_img": "https://i.ibb.co/Svy1P55/training-20s-study-people-portrait.jpg",
+      "hash_tag": ["technology", "adventure", "virtual"],
+      "reading_time": 15,
+      "post_date": "2023-02-15"
+    },
+    {
+      "id": "345678",
+      "cover_img": "https://i.ibb.co/kxQ252k/programming-background-with-person-working-with-codes-computer-1.jpg",
+      "title": "Enchanting Fantasy Realms",
+      "author_name": "Serena Dreamweaver",
+      "author_img": "https://i.ibb.co/QjYGgM9/young-woman-writing-diary-restaurant.jpg",
+      "hash_tag": ["fantasy", "magic", "adventure"],
+      "reading_time": 11,
+      "post_date": "2023-03-20"
+    },
+    {
+      "id": "901234",
+      "cover_img": "https://i.ibb.co/mtDfkNv/programming-background-with-person-working-with-codes-computer.jpg",
+      "title": "Gastronomic Delights Around the World",
+      "author_name": "Gourmet Globe-trotter",
+      "author_img": "https://i.ibb.co/dBzXj5d/medium-shot-woman-writing-resignation.jpg",
+      "hash_tag": ["foodie", "travel", "culinary"],
+      "reading_time": 101,
+      "post_date": "2023-04-25"
+    },
+    {
+      "id": "567890",
+      "cover_img": "https://i.ibb.co/bgQm1Tj/technology-connection-online-networking-medias-conpt.jpg",
+      "title": "Exploring Alien Civilizations",
+      "author_name": "Xander Spacefarer",
+      "author_img": "https://i.ibb.co/Svy1P55/training-20s-study-people-portrait.jpg",
+      "hash_tag": ["space", "aliens", "exploration"],
+      "reading_time": "30 mins",
+      "post_date": "2023-05-30"
+    }
+  ]
+  
