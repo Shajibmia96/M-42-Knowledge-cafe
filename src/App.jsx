@@ -20,10 +20,15 @@ function App() {
         setBookMarks(newBookMarks)
     }
 
-     const handleReadAsMark =time =>{
+     const handleReadAsMark =(id,time) =>{
           console.log("click read mark", time)
           const newReadingTime = (readTime + time)
-          setReadTime(newReadingTime)
+          setReadTime(newReadingTime);
+
+          // removed from book marks 
+          console.log("Click on id" ,id)
+          const newBookMarks = bookMarks.filter(bookMark => bookMark.id !== id)
+          setBookMarks(newBookMarks)
      }
                console.log(readTime)
   return (
